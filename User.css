@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Lato;
+    src: url(Font/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Exo;
+    src: url(Font/Exo/Exo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoB;
+    src: url(Font/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: RobotoM;
+    src: url(Font/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Exo2;
+    src: url(Font/Exo_2/Exo2-Black.ttf);
+}
+
+@font-face {
+    font-family: PTS;
+    src: url(Font/PT_Sans/PT_Sans-Web-Regular.ttf);
+}
+
+@font-face {
+    font-family: RW;
+    src: url(Font/Raleway/Raleway-Regular.ttf);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+div.leftHeader {
+    border-bottom: 1px rgb(180, 180, 180) solid;
+    width: 50%;
+    float: left;
+    font-size: 30px;
+    font-family: Exo;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 45px;
+    letter-spacing: 1.7px;
+    color: black;
+}
+
+div.rightHeader {
+    border-bottom: 1px rgb(180, 180, 180) solid;
+    width: 50%;
+    float: right;
+    padding: 10px;
+    text-align: left;
+    font-size: 30px;
+    font-family: Exo;
+    text-decoration: none;
+    height: 51px;
+}
+
+div.ngo {
+    border: 1px solid black;
+    font-family: RobotoM;
+}
+
+div.loop {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+input.rightHeader {
+    text-align: Center;
+    font-size: 18px;
+    margin-left: 5px;
+    float: left;
+    border-radius: 2.5px;
+    border: 1px rgb(180, 180, 180) solid;
+}
